@@ -1,0 +1,47 @@
+/* Definição de estilos gerais */
+body {
+    background-color: #00A8E6;
+    transition: background-color 0.3s; /* Transição suave para mudanças de cor de fundo */
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Estiliza a barra de navegação */
+#barraNavegacao {
+    background-color: #FCEC34;
+    width: 50%;
+    height: 50%;
+}
+
+/* Estilos para títulos */
+h1, h2 {
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Estiliza a linha horizontal */
+hr {
+    border: 1px solid black;
+}
+
+/* Estilos para imagens */
+img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    transition: width 0.3s, height 0.3s; /* Transição suave para mudanças de tamanho */
+}
+
+/* Efeito de hover nas imagens */
+img:hover {
+    width: 100%;
+    height: 100%;
+}
+
+/* Efeito de clique no corpo */
+body:active {
+    background-color: black;
+}
